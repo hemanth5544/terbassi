@@ -1,0 +1,167 @@
+.header {
+    font-family: "Helvetica";
+    font-size: 25px;
+    color: black;
+    font-weight:bolder;
+}
+.Image {
+    width: 20px;
+    height: 20px;
+
+}
+.button-like {
+    border: 0px;
+    border-color: white;
+    background-color: transparent;
+    
+}
+.description {
+    color: black;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    font-weight: 500;
+
+}
+
+.horizontal {
+    background-color: black;
+    background-size: 3px;
+}
+.idea-color {
+    color: aqua;
+    font-size: 12px;
+}
+.p1-color {
+    color: black;
+    font-size: 12px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.navBar {
+    background-color: black;
+    padding: 15px;
+}
+.nav-button {
+    background-color :#FFA500;
+    font-family: "verdana";
+    font-weight: 550;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+.nav-header {
+    color: white;
+    font-size: 20px;
+    font-family: "verdana";
+    font-weight: 600;
+}
+.line {
+    margin-left: 8px;
+    border: 0px;
+    border-left: 2px;
+    border-color: rgb(157, 109, 109);
+    width: 200px;
+    border-style: solid;
+}
+.paris-Image {
+    height: 400px;
+    width: 100%;
+    filter: contrast(70%);
+    position:relative;
+    z-index: 1;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+}
+.verified-image {
+    height: 20px;
+    margin-top: 8px;
+}
+.verified-images {
+    height: 25px;
+    margin-top: 4px;
+}
+.button-follow{
+  background-color: transparent;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100px;
+  border-style: solid;
+  border-color: gray;
+  color: grey;
+}
+.description-para {
+    font-size: 15px;
+    text-align: center;
+    /* font-family: "Roboto"; */
+    font-weight: 650;
+    color: gray;
+}
+.person {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.i-color {
+    color: #006994;
+  
+} 
+.div-image {
+    position: absolute;
+    bottom: 8px;
+}
+.description-h{
+    color: rgb(52, 40, 40);
+    font-size: 20px;
+}
+
+.header-count {
+    font-weight: 500;
+}
+.hor{
+    background-color: #808080;
+    border: 1px solid #808080;
+}
+.total-posts {
+    color: #005477;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "areal";
+}
+.post{
+    border: 0px;
+    border-top: 2px;
+    border-right: 2px;
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+    color: #808080;
+}
+.parent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .child {
+    position: relative;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%, -100%);
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+  }
+  
